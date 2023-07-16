@@ -50,11 +50,12 @@
 #sectiont1-icons{
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/1fr 3fr;
+    font-weight: 600;
 }
 .icons{
     width: 50%;
     height: 50%;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: 50px;
 }
 #section2{
@@ -259,9 +260,9 @@
     /* background-color: rebeccapurple; */
     margin-top: 60px;
 }
-.trending h4{
+/* .trending h4{
     margin-top: ;
-}
+} */
 hr{
     width: 290px;
     margin-left: 40px;
