@@ -80,7 +80,7 @@
     margin-left: 4px;
 }
 #homePage{
-    background-color:rgba(221, 14, 14, 0.829);
+    background-color:#e2e8f0;
     width: 80vw;
     height:100vh;
     display: grid;
@@ -146,8 +146,9 @@
 }
 .headerLowerName{
     grid-area: 2/2/3/3;
-    margin-top: 6%;
+    margin-top: 7%;
     font-weight: bolder;
+    font-size: 20px;
 }
 .headerLowerLists{
     background-color: #1992d4;
@@ -155,13 +156,64 @@
     font-family: 'Roboto',sans-serif;
     list-style: none;
     border-radius: 20px;
-    margin-top: 30%;
+    margin-top: 40%;
     height: 2rem;
     width: 60%;
     display: flex; /* Added */
     align-items: center; /* Added */
     justify-content: center;
 }
+.mainContent{
+    display: grid;
+    grid-template:1fr/72% 28%;
+
+}
+.mainContentLeft{
+    /* background-color: pink; */
+    display: grid;
+    grid-template: 10% 29% 29% 29% / 50% 50%;
+}
+.leftText{
+    grid-area: 1/1/2/3;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.ContentCards{
+    background-color: white;
+    border-left:0.8rem solid;
+    border-color: orange;
+    width: 80%;
+    height: 85%;
+    border-radius: 10px;
+    margin-left: 10%;
+    /* margin-top: 7%; */
+    padding: 40px;
+}
+.cardIcons{
+    /* display: grid;
+    grid-template: 1fr/70% 10% 10% 10; */
+    display: flex;
+
+}
+
+.cardImg{
+    width: 10%;
+    height: 20%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.empty{
+    /* background-color: black; */
+    width:250px;
+    height: 50px;
+}
+.mainContentRight{
+    background-color: orange;
+    display: grid;
+    grid-template: 1fr 1fr/1fr;
+}
+
 main{
     display: grid;
     grid-template: 0/2fr 8fr;
