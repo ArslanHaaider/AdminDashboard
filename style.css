@@ -209,11 +209,37 @@
     height: 50px;
 }
 .mainContentRight{
-    background-color: orange;
+    background-color: #e2e8f0;
     display: grid;
     grid-template: 1fr 1fr/1fr;
 }
 
+.announcements{
+    /* background-color: pink; */
+    display: grid;
+    grid-template: 25% 75%/1fr;
+    padding: 25px;
+}
+.Announcements1{
+    padding: 20px;
+    font-size: 0.8rem;
+    margin-bottom: -10px;
+}
+.AnnouncementsSection{
+    background-color: white;
+    border-radius: 20px;
+    height: 20rem;
+    margin-top: -20px;
+}
+.Announcements1 h3{
+    margin-bottom: 5px;
+}
+.rightText{
+    margin-top: 20px;
+}
+.trending{
+    /* background-color: orange; */
+}
 main{
     display: grid;
     grid-template: 0/2fr 8fr;
